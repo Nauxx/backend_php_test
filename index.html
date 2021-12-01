@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="display">
+        <p class="display__percentage" id="percentage">--</p>
+        <p class="display__url-counter" id="urlCounter">-</p>
+        <p class="display__url-current" id="urlCurrent">-</p>
+      </div>
+
+      <div class="input-group">
+        <input
+          class="input-group__input"
+          type="url"
+          name="url-input"
+          id="url-input"
+        />
+        <input
+          class="input-group__btn"
+          id="button"
+          type="button"
+          value="Save"
+        />
+      </div>
+      <div class="test-urls">
+        <h3>Test URLs:</h3>
+        <ul>
+          <li>https://koch-essen.de/page-sitemap.xml</li>
+          <li>https://koch-essen.de/projekte-sitemap.xml</li>
+          <li>https://www.cetecom.com/post-sitemap.xml</li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
